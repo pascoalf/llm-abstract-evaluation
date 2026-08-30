@@ -17,10 +17,9 @@ def main():
         torch_dtype = "auto",
         attn_implementation="eager"
     )
-    
-    generation_config = GenerationConfig(
-        max_new_tokens=100
-        )
+
+    generation_config = GenerationConfig(  
+        max_new_tokens=5)
 
     # create a pipeline
     pipe = pipeline(
