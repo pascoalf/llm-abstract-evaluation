@@ -1,5 +1,6 @@
 import create_pipeline as cp
 import re
+import pandas as pd
 from datasets import load_dataset
 
 cp.main()
@@ -11,10 +12,8 @@ abstracts = load_dataset(
     streaming=True
 )
 
-some_abstracts = list(abstracts.take(20))
+some_abstracts = list(abstracts.take(50))
 
-# first example
-abstract = some_abstracts[1]["abstract"]
 
 scores = []
 
@@ -59,5 +58,21 @@ def extract_scores(text):
 clean_scores = [extract_scores(x) for x in scores] 
 
 print(clean_scores)
+
+# Extract titles used
+titles = [paper["title"] for paper in some_abstracts]
+
+# organize into data.frame
+results = pd.DataFrame({
+    "title": titles,
+    "clarity": clean_scores 
+})
+
+print(results)
+print(results["clarity"].describe())
+
+# Store the LLM scores
+results.to_csv("results/scores.csv", index = False)
+
 
 raise SystemExit
