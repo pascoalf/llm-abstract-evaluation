@@ -2,7 +2,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # read data
-results = pd.read_csv("results/scores.csv")
+results = pd.read_csv("results/all_scores.csv")
+
+results["final_score"].describe()
 
 # Plot clarity scores
 plt.plot(results["clarity"], marker = "o")
@@ -40,4 +42,14 @@ plt.xlabel("Clarity scoore")
 plt.title("LLM clarity score")
 plt.tight_layout()
 plt.legend("Figure 4")
+plt.show()
+
+# 
+# Plot final scores
+plt.plot(results["final_score"], marker = "o")
+plt.ylim(0, 5)
+plt.xlabel("Abstract")
+plt.ylabel("Clarity score")
+plt.title("LLM clarity scores")
+plt.legend("Figure 1")
 plt.show()
