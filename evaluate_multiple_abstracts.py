@@ -14,13 +14,18 @@ abstracts = load_dataset(
 
 some_abstracts = list(abstracts.take(50))
 
+# Extract titles used
+titles = [paper["title"] for paper in some_abstracts]
 
-scores = []
+# Obtain scores
+scores_clarity = []
+scores_relevance = []
+scores_rigor = []
 
 for paper in some_abstracts:
 
-    # make prompt for each abstract
-    eval_abstract = [
+    # Evaluate clarity
+    eval_clarity = [
         {
             "role": "user",
             "content": f"""
@@ -41,13 +46,69 @@ for paper in some_abstracts:
                     """
         }
     ]
-    # Evaluate abstract
-    scoring = cp.pipe(eval_abstract, 
+    # Extract clarity scoring
+    scoring_clarity = cp.pipe(eval_clarity, 
                  do_sample=True, 
                  clean_up_tokenization_spaces=False)
 
-    scores.append(scoring[0]["generated_text"]) 
-    #print(scoring[0]["generated_text"])
+    scores_clarity.append(scoring_clarity[0]["generated_text"])
+
+    # Evaluate relevance
+    eval_relevance = [
+        {
+            "role": "user",
+            "content": f"""
+                        Evaluate the relevance of presentation of the following scientific abstract.
+
+                        Rate its relevance from 0 to 5, where:
+                        0 = Useless
+                        1 = very irrelevant
+                        2 = somewhat irrelevant
+                        3 = reasonably relevant
+                        4 = very relevant
+                        5 = exceptionally relevant
+
+                        Return only the numerical score.
+
+                        Abstract:
+                        {paper["abstract"]}
+                    """
+        }
+    ]
+    # Extract relevance scoring
+    scoring_relevance = cp.pipe(eval_relevance, 
+                 do_sample=True, 
+                 clean_up_tokenization_spaces=False)
+
+    scores_relevance.append(scoring_relevance[0]["generated_text"])
+
+    # Evaluate rigor
+    eval_rigor = [
+        {
+            "role": "user",
+            "content": f"""
+                        Return only one numerical score for the apparent methodological rigor in the abstract.
+
+                        Rate its rigor from 0 to 5, where:
+                        0 = not even science
+                        1 = very innacurate
+                        2 = somewhat unnacurate
+                        3 = reasonably rigoros
+                        4 = very rigoros, minor issues only
+                        5 = exceptionally rigorous
+
+                        Abstract:
+                        {paper["abstract"]}
+                    """
+        }
+    ]
+    # Extract rigor scoring
+    scoring_rigor = cp.pipe(eval_rigor, 
+                 do_sample=True, 
+                 clean_up_tokenization_spaces=False)
+
+    scores_rigor.append(scoring_rigor[0]["generated_text"])
+
 
 # Extract numerical score from responses
 def extract_scores(text):
@@ -55,24 +116,26 @@ def extract_scores(text):
     return float(match.group()) if match else None    
 
 # clean the scores
-clean_scores = [extract_scores(x) for x in scores] 
-
-print(clean_scores)
-
-# Extract titles used
-titles = [paper["title"] for paper in some_abstracts]
+clean_scores_clarity = [extract_scores(x) for x in scores_clarity]
+clean_scores_relevance = [extract_scores(x) for x in scores_relevance]
+clean_scores_rigor = [extract_scores(x) for x in scores_rigor]
 
 # organize into data.frame
 results = pd.DataFrame({
     "title": titles,
-    "clarity": clean_scores 
+    "clarity": clean_scores_clarity,
+    "relevance": clean_scores_relevance,
+    "rigor": clean_scores_rigor 
 })
 
-print(results)
-print(results["clarity"].describe())
+# Calculate final score
+results["final_score"] = results[["clarity", "relevance", "rigor"]].mean(axis = 1)
+
+#print(results)
+#print(results["clarity"].describe())
 
 # Store the LLM scores
-results.to_csv("results/scores.csv", index = False)
+results.to_csv("results/all_scores.csv", index = False)
 
 
 raise SystemExit
