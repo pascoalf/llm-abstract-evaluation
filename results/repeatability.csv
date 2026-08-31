@@ -1,21 +1,21 @@
 ,run,seed,title,clarity,relevance,rigor,final_score
-0,1,100,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,5.0,4.0,4.333333333333333
+0,1,100,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.0,4.0,4.0
 1,1,100,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.5,4.0,4.0,4.166666666666667
 2,1,100,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,5.0,4.0,4.333333333333333
-3,1,100,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,,4.5,,4.5
-4,1,100,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.5,4.0,4.166666666666667
-5,1,100,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,4.0,3.6666666666666665
-6,1,100,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,4.5,4.5
-7,1,100,Effects of zinc-smelter emissions on forest soil microflora.,4.0,4.5,4.5,4.333333333333333
-8,1,100,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,4.0,4.0
-9,1,100,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
+3,1,100,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,3.5,4.0,4.0,3.8333333333333335
+4,1,100,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,5.0,4.0,4.333333333333333
+5,1,100,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.5,,3.75
+6,1,100,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,,4.5
+7,1,100,Effects of zinc-smelter emissions on forest soil microflora.,4.5,4.5,4.0,4.333333333333333
+8,1,100,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.5,4.0,4.166666666666667
+9,1,100,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,3.0,,3.0
 10,2,101,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.5,4.0,4.166666666666667
 11,2,101,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.0,4.0,4.0,4.0
 12,2,101,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,5.0,4.5,4.5
 13,2,101,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,5.0,4.0,4.333333333333333
 14,2,101,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.5,4.5,4.0,4.333333333333333
 15,2,101,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,4.0,4.0
-16,2,101,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,4.0,4.333333333333333
+16,2,101,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,4.5,4.5
 17,2,101,Effects of zinc-smelter emissions on forest soil microflora.,4.0,5.0,4.5,4.5
 18,2,101,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,4.0,4.0
 19,2,101,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,5.0,4.0,4.0
@@ -28,16 +28,16 @@
 26,3,102,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,5.0,4.666666666666667
 27,3,102,Effects of zinc-smelter emissions on forest soil microflora.,4.5,5.0,4.0,4.5
 28,3,102,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,5.0,4.333333333333333
-29,3,102,Serum lactate dehydrogenase activity ratios with different substrates.,3.5,4.5,4.0,4.0
+29,3,102,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
 30,4,103,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,5.0,4.0,4.0
 31,4,103,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.0,4.0,4.0,4.0
 32,4,103,Purification and properties of Escherichia coli dihydrofolate reductase.,4.5,5.0,4.0,4.5
 33,4,103,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,3.0,4.0,4.0,3.6666666666666665
-34,4,103,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.0,4.0,4.0
-35,4,103,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,4.0,4.0
+34,4,103,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,5.0,4.0,4.333333333333333
+35,4,103,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,4.0,3.6666666666666665
 36,4,103,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,4.0,4.333333333333333
-37,4,103,Effects of zinc-smelter emissions on forest soil microflora.,4.5,4.5,,4.5
-38,4,103,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,5.0,4.0,4.333333333333333
+37,4,103,Effects of zinc-smelter emissions on forest soil microflora.,4.0,5.0,4.0,4.333333333333333
+38,4,103,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.5,5.0,4.5
 39,4,103,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
 40,5,104,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,4.0,4.0,3.6666666666666665
 41,5,104,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,3.0,4.0,4.5,3.8333333333333335
@@ -46,6 +46,6 @@
 44,5,104,Myosin from arterial smooth muscle: isolation following actin depolymerization.,3.0,4.0,4.0,3.6666666666666665
 45,5,104,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,4.0,3.6666666666666665
 46,5,104,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,,4.5
-47,5,104,Effects of zinc-smelter emissions on forest soil microflora.,4.0,5.0,4.5,4.5
-48,5,104,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.5,4.0,4.0,4.166666666666667
-49,5,104,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.5,4.0,3.8333333333333335
+47,5,104,Effects of zinc-smelter emissions on forest soil microflora.,4.0,5.0,4.0,4.333333333333333
+48,5,104,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.5,4.0,4.166666666666667
+49,5,104,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.5,4.5,4.0
