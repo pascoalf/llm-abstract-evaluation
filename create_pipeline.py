@@ -5,14 +5,14 @@ model = None
 pipe = None
 tokenizer = None
 
-def main():
+def prepare_model(select_model):
     global model, pipe, tokenizer
     #
-    tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-4k-instruct")
+    tokenizer = AutoTokenizer.from_pretrained(select_model)
 
     # Load model and tokenizer
     model = AutoModelForCausalLM.from_pretrained(
-        "microsoft/Phi-3-mini-4k-instruct",
+        select_model, #e.g., "microsoft/Phi-3-mini-4k-instruct",
         device_map = "auto",
         torch_dtype = "auto",
         attn_implementation="eager"
@@ -31,4 +31,4 @@ def main():
         )
 
 if __name__ == "__main__":
-    main()
+    prepare_model("microsoft/Phi-3-mini-4k-instruct")
