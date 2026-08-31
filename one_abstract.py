@@ -1,7 +1,7 @@
 import create_pipeline as cp
 from datasets import load_dataset
 
-cp.main()
+cp.prepare_model("microsoft/Phi-3-mini-4k-instruct")
 
 abstracts = load_dataset(
     "slinusc/PubMedAbstractsSubset",

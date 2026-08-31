@@ -1,6 +1,6 @@
 import create_pipeline as cp
 
-cp.main()
+cp.prepare_model("microsoft/Phi-3-mini-4k-instruct")
 
 # simple prompt
 test =  [{"role": "user", 

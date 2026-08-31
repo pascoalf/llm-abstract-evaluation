@@ -3,7 +3,7 @@ import re
 import pandas as pd
 from datasets import load_dataset
 
-cp.main()
+cp.prepare_model("microsoft/Phi-3-mini-4k-instruct")
 cp.model.generation_config.max_length = None
 
 abstracts = load_dataset(
