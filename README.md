@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue)
+![Transformers](https://img.shields.io/badge/🤗%20Transformers-Hugging%20Face-yellow)
+![PyTorch](https://img.shields.io/badge/PyTorch-LLM%20Inference-red?logo=pytorch)
+![Status](https://img.shields.io/badge/Status-Exploratory-orange)
+
 # LLMs as Scientific Abstract Evaluators
 
 This is a small exploratory project developed to strengthen my Python and LLM evaluation skills while investigating the behavior of language models when asked to evaluate scientific text.
