@@ -28,11 +28,11 @@ start = time.perf_counter()
 # Run over all models, multiple seeds, all prompts
 for selected_model in models:
     em.evaluate_model(select_model = selected_model, 
-                      seed = 5, 
+                      seed = 15, 
                       some_abstracts=some_abstracts,
                       titles = titles,
                       all_results = all_results,
-                      file_name= "all_models_5seed_20abstracts_3prompts")
+                      file_name= "all_models_15seed_20abstracts_3prompts")
 
 #
 
