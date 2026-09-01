@@ -91,3 +91,8 @@ The analysis currently focuses on:
 This repository is an exploratory Python/LLM project rather than a benchmark of scientific-review quality. The resulting scores should not be interpreted as validated measurements of scientific merit.
 
 The emphasis is instead on building a reproducible workflow for model evaluation and examining how apparently simple LLM-based scoring behaves under repeated testing.
+
+## Learning resources
+
+Alammar, J., & Grootendorst, M. (2024). Hands-On Large Language Models: Language Understanding and Generation. O’Reilly Media.
+
