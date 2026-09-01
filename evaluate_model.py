@@ -22,7 +22,7 @@ if __name__ == "__main__":
     all_results = []
 
 # run model on prompts and extract scores
-def evaluate_model(select_model, seed, some_abstracts):
+def evaluate_model(select_model, seed, some_abstracts, titles, all_results, file_name):
     
     # load model and prepare pipeline
     cp.prepare_model(select_model)
@@ -158,7 +158,8 @@ def evaluate_model(select_model, seed, some_abstracts):
 
         #
         combined.to_csv(
-            "results/models_repeatability.csv"
+            f"results/{file_name}.csv",
+            index = False
         )
     #
     cp.pipe = None

@@ -4,7 +4,8 @@ from datasets import load_dataset
 # 
 models = [
     "microsoft/Phi-3-mini-4k-instruct",
-    "Qwen/Qwen2.5-3B-Instruct" #,"meta-llama/Llama-3.2-3B-Instruct" (waiting for approval)
+    "Qwen/Qwen2.5-3B-Instruct",
+    "meta-llama/Llama-3.2-3B-Instruct"
 ]
 
 abstracts = load_dataset(
@@ -25,4 +26,5 @@ for selected_model in models:
     em.evaluate_model(select_model = selected_model, 
                       seed = 2, 
                       some_abstracts=some_abstracts,
-                      titles = titles)
+                      titles = titles,
+                      all_results = all_results)
