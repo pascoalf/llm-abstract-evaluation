@@ -1,0 +1,301 @@
+model,run,seed,title,clarity,relevance,rigor,final_score
+microsoft/Phi-3-mini-4k-instruct,1,100,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,1,100,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.5,4.0,4.0,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,1,100,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,1,100,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,3.5,4.0,4.0,3.8333333333333335
+microsoft/Phi-3-mini-4k-instruct,1,100,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,1,100,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.5,,3.75
+microsoft/Phi-3-mini-4k-instruct,1,100,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,,4.5
+microsoft/Phi-3-mini-4k-instruct,1,100,Effects of zinc-smelter emissions on forest soil microflora.,4.5,4.5,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,1,100,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.5,4.0,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,1,100,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,3.0,,3.0
+microsoft/Phi-3-mini-4k-instruct,1,100,Arterial catecholamines in hypoxic exercise in man.,4.5,4.5,,4.5
+microsoft/Phi-3-mini-4k-instruct,1,100,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,1,100,[Synthesis of N-substituted isoindolines].,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,1,100,Gluconic acid production by Penicillium puberulum.,4.5,5.0,4.0,4.5
+microsoft/Phi-3-mini-4k-instruct,1,100,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,5.0,4.5,4.5
+microsoft/Phi-3-mini-4k-instruct,1,100,Degradation of myxovirus virion RNA by periodate.,3.0,4.0,3.0,3.3333333333333335
+microsoft/Phi-3-mini-4k-instruct,1,100,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,1,100,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,1,100,Transport of molybdate by Clostridium pasteurianum.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,1,100,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,,5.0,4.5,4.75
+microsoft/Phi-3-mini-4k-instruct,2,101,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.5,4.0,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,2,101,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,2,101,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,5.0,4.5,4.5
+microsoft/Phi-3-mini-4k-instruct,2,101,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,2,101,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.5,4.5,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,2,101,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,2,101,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,4.5,4.5
+microsoft/Phi-3-mini-4k-instruct,2,101,Effects of zinc-smelter emissions on forest soil microflora.,4.0,5.0,4.5,4.5
+microsoft/Phi-3-mini-4k-instruct,2,101,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,2,101,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,5.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,2,101,Arterial catecholamines in hypoxic exercise in man.,4.0,5.0,4.5,4.5
+microsoft/Phi-3-mini-4k-instruct,2,101,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,2,101,[Synthesis of N-substituted isoindolines].,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,2,101,Gluconic acid production by Penicillium puberulum.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,2,101,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,,5.0,4.0,4.5
+microsoft/Phi-3-mini-4k-instruct,2,101,Degradation of myxovirus virion RNA by periodate.,3.0,4.0,3.0,3.3333333333333335
+microsoft/Phi-3-mini-4k-instruct,2,101,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,2,101,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,3.0,5.0,4.5,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,2,101,Transport of molybdate by Clostridium pasteurianum.,4.5,5.0,4.0,4.5
+microsoft/Phi-3-mini-4k-instruct,2,101,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,4.5,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,3,102,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,3,102,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,,4.5,4.0,4.25
+microsoft/Phi-3-mini-4k-instruct,3,102,Purification and properties of Escherichia coli dihydrofolate reductase.,4.5,5.0,4.0,4.5
+microsoft/Phi-3-mini-4k-instruct,3,102,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,3,102,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.5,4.0,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,3,102,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,5.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,3,102,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,5.0,4.666666666666667
+microsoft/Phi-3-mini-4k-instruct,3,102,Effects of zinc-smelter emissions on forest soil microflora.,4.5,5.0,4.0,4.5
+microsoft/Phi-3-mini-4k-instruct,3,102,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,5.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,3,102,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,3,102,Arterial catecholamines in hypoxic exercise in man.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,3,102,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,3,102,[Synthesis of N-substituted isoindolines].,3.0,4.5,3.5,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,3,102,Gluconic acid production by Penicillium puberulum.,4.5,4.5,,4.5
+microsoft/Phi-3-mini-4k-instruct,3,102,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,3,102,Degradation of myxovirus virion RNA by periodate.,4.0,4.0,3.5,3.8333333333333335
+microsoft/Phi-3-mini-4k-instruct,3,102,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,3.5,3.8333333333333335
+microsoft/Phi-3-mini-4k-instruct,3,102,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,3.0,4.5,4.0,3.8333333333333335
+microsoft/Phi-3-mini-4k-instruct,3,102,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,,4.0
+microsoft/Phi-3-mini-4k-instruct,3,102,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,5.0,4.5,4.5
+microsoft/Phi-3-mini-4k-instruct,4,103,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,5.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,4,103,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,4,103,Purification and properties of Escherichia coli dihydrofolate reductase.,4.5,5.0,4.0,4.5
+microsoft/Phi-3-mini-4k-instruct,4,103,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,4,103,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,4,103,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,4,103,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,4,103,Effects of zinc-smelter emissions on forest soil microflora.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,4,103,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.5,5.0,4.5
+microsoft/Phi-3-mini-4k-instruct,4,103,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,4,103,Arterial catecholamines in hypoxic exercise in man.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,4,103,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,4.0,4.0
+microsoft/Phi-3-mini-4k-instruct,4,103,[Synthesis of N-substituted isoindolines].,4.0,4.5,3.5,4.0
+microsoft/Phi-3-mini-4k-instruct,4,103,Gluconic acid production by Penicillium puberulum.,,5.0,4.0,4.5
+microsoft/Phi-3-mini-4k-instruct,4,103,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.5,5.0,4.0,4.5
+microsoft/Phi-3-mini-4k-instruct,4,103,Degradation of myxovirus virion RNA by periodate.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,4,103,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,,4.0
+microsoft/Phi-3-mini-4k-instruct,4,103,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,3.0,4.5,4.0,3.8333333333333335
+microsoft/Phi-3-mini-4k-instruct,4,103,Transport of molybdate by Clostridium pasteurianum.,4.0,4.5,4.5,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,4,103,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,5.0,4.5,4.5
+microsoft/Phi-3-mini-4k-instruct,5,104,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,5,104,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,3.0,4.0,4.5,3.8333333333333335
+microsoft/Phi-3-mini-4k-instruct,5,104,Purification and properties of Escherichia coli dihydrofolate reductase.,3.0,5.0,,4.0
+microsoft/Phi-3-mini-4k-instruct,5,104,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.5,4.0,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,5,104,Myosin from arterial smooth muscle: isolation following actin depolymerization.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,5,104,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,5,104,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,5.0,,4.5
+microsoft/Phi-3-mini-4k-instruct,5,104,Effects of zinc-smelter emissions on forest soil microflora.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,5,104,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.5,4.0,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,5,104,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.5,4.5,4.0
+microsoft/Phi-3-mini-4k-instruct,5,104,Arterial catecholamines in hypoxic exercise in man.,4.5,4.5,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,5,104,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.5,4.0,4.166666666666667
+microsoft/Phi-3-mini-4k-instruct,5,104,[Synthesis of N-substituted isoindolines].,4.0,4.0,3.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,5,104,Gluconic acid production by Penicillium puberulum.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,5,104,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,5.0,4.5,4.5
+microsoft/Phi-3-mini-4k-instruct,5,104,Degradation of myxovirus virion RNA by periodate.,3.0,4.0,,3.5
+microsoft/Phi-3-mini-4k-instruct,5,104,Phospholipase D activity of gram-negative bacteria.,3.0,4.0,4.0,3.6666666666666665
+microsoft/Phi-3-mini-4k-instruct,5,104,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,5.0,5.0,4.0,4.666666666666667
+microsoft/Phi-3-mini-4k-instruct,5,104,Transport of molybdate by Clostridium pasteurianum.,4.0,5.0,4.0,4.333333333333333
+microsoft/Phi-3-mini-4k-instruct,5,104,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,5.0,4.0,4.333333333333333
+Qwen/Qwen2.5-3B-Instruct,1,100,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,4.0,2.0,3.0
+Qwen/Qwen2.5-3B-Instruct,1,100,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,1,100,Purification and properties of Escherichia coli dihydrofolate reductase.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,1,100,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,1,100,Myosin from arterial smooth muscle: isolation following actin depolymerization.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,1,100,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,1,100,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,1,100,Effects of zinc-smelter emissions on forest soil microflora.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,1,100,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,1,100,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,1,100,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,1,100,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,1,100,[Synthesis of N-substituted isoindolines].,3.0,3.0,2.0,2.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,1,100,Gluconic acid production by Penicillium puberulum.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,1,100,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,1,100,Degradation of myxovirus virion RNA by periodate.,3.0,3.0,3.0,3.0
+Qwen/Qwen2.5-3B-Instruct,1,100,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,1,100,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,1,100,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,5.0,4.333333333333333
+Qwen/Qwen2.5-3B-Instruct,1,100,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,2,101,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,4.0,2.0,3.0
+Qwen/Qwen2.5-3B-Instruct,2,101,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,2,101,Purification and properties of Escherichia coli dihydrofolate reductase.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,2,101,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,2,101,Myosin from arterial smooth muscle: isolation following actin depolymerization.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,2,101,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,2,101,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,2,101,Effects of zinc-smelter emissions on forest soil microflora.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,2,101,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,2,101,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,2,101,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,2,101,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,2,101,[Synthesis of N-substituted isoindolines].,3.0,3.0,2.0,2.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,2,101,Gluconic acid production by Penicillium puberulum.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,2,101,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,2,101,Degradation of myxovirus virion RNA by periodate.,3.0,3.0,3.0,3.0
+Qwen/Qwen2.5-3B-Instruct,2,101,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,2,101,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,2,101,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,2,101,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,3,102,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,4.0,2.0,3.0
+Qwen/Qwen2.5-3B-Instruct,3,102,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,3,102,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,3,102,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,3,102,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,3,102,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,3,102,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,3,102,Effects of zinc-smelter emissions on forest soil microflora.,2.0,3.0,3.0,2.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,3,102,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,3,102,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,3,102,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,3,102,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,3,102,[Synthesis of N-substituted isoindolines].,2.0,3.0,2.0,2.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,3,102,Gluconic acid production by Penicillium puberulum.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,3,102,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,3,102,Degradation of myxovirus virion RNA by periodate.,3.0,3.0,3.0,3.0
+Qwen/Qwen2.5-3B-Instruct,3,102,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,3,102,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,3,102,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,5.0,4.333333333333333
+Qwen/Qwen2.5-3B-Instruct,3,102,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,4,103,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,4.0,2.0,3.0
+Qwen/Qwen2.5-3B-Instruct,4,103,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,4,103,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,4,103,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,4,103,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,4,103,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,4,103,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,4,103,Effects of zinc-smelter emissions on forest soil microflora.,3.0,3.0,3.0,3.0
+Qwen/Qwen2.5-3B-Instruct,4,103,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,5.0,4.0,4.333333333333333
+Qwen/Qwen2.5-3B-Instruct,4,103,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,4,103,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,4,103,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,4,103,[Synthesis of N-substituted isoindolines].,3.0,3.0,2.0,2.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,4,103,Gluconic acid production by Penicillium puberulum.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,4,103,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,4,103,Degradation of myxovirus virion RNA by periodate.,3.0,3.0,3.0,3.0
+Qwen/Qwen2.5-3B-Instruct,4,103,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,4,103,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,4,103,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,5.0,4.333333333333333
+Qwen/Qwen2.5-3B-Instruct,4,103,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,5,104,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",3.0,4.0,2.0,3.0
+Qwen/Qwen2.5-3B-Instruct,5,104,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,5,104,Purification and properties of Escherichia coli dihydrofolate reductase.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,5,104,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,5,104,Myosin from arterial smooth muscle: isolation following actin depolymerization.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,5,104,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,5,104,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,5,104,Effects of zinc-smelter emissions on forest soil microflora.,2.0,4.0,3.0,3.0
+Qwen/Qwen2.5-3B-Instruct,5,104,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,5,104,Serum lactate dehydrogenase activity ratios with different substrates.,3.0,4.0,4.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,5,104,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,5,104,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,5,104,[Synthesis of N-substituted isoindolines].,2.0,3.0,2.0,2.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,5,104,Gluconic acid production by Penicillium puberulum.,4.0,4.0,3.0,3.6666666666666665
+Qwen/Qwen2.5-3B-Instruct,5,104,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,5,104,Degradation of myxovirus virion RNA by periodate.,3.0,3.0,3.0,3.0
+Qwen/Qwen2.5-3B-Instruct,5,104,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,4.0,4.0
+Qwen/Qwen2.5-3B-Instruct,5,104,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,3.0,4.0,3.0,3.3333333333333335
+Qwen/Qwen2.5-3B-Instruct,5,104,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,5.0,4.333333333333333
+Qwen/Qwen2.5-3B-Instruct,5,104,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,3.0,3.6666666666666665
+meta-llama/Llama-3.2-3B-Instruct,1,100,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Purification and properties of Escherichia coli dihydrofolate reductase.,3.0,4.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,1,100,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Effects of zinc-smelter emissions on forest soil microflora.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Serum lactate dehydrogenase activity ratios with different substrates.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,[Synthesis of N-substituted isoindolines].,4.0,3.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,1,100,Gluconic acid production by Penicillium puberulum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Degradation of myxovirus virion RNA by periodate.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,1,100,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,3.0,4.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,2,101,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Effects of zinc-smelter emissions on forest soil microflora.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Serum lactate dehydrogenase activity ratios with different substrates.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,[Synthesis of N-substituted isoindolines].,3.0,4.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,2,101,Gluconic acid production by Penicillium puberulum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Degradation of myxovirus virion RNA by periodate.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,2,101,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,3.0,4.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,3,102,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Effects of zinc-smelter emissions on forest soil microflora.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Serum lactate dehydrogenase activity ratios with different substrates.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,[Synthesis of N-substituted isoindolines].,3.0,3.0,,3.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Gluconic acid production by Penicillium puberulum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Degradation of myxovirus virion RNA by periodate.,3.0,4.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,3,102,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,3,102,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Effects of zinc-smelter emissions on forest soil microflora.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Serum lactate dehydrogenase activity ratios with different substrates.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,[Synthesis of N-substituted isoindolines].,3.0,4.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,4,103,Gluconic acid production by Penicillium puberulum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Degradation of myxovirus virion RNA by periodate.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,4,103,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,"[Demonstration of tumor inhibiting properties of a strongly immunostimulating low-molecular weight substance. Comparative studies with ifosfamide on the immuno-labile DS carcinosarcoma. Stimulation of the autoimmune activity for approx. 20 days by BA 1, a N-(2-cyanoethylene)-urea. Novel prophylactic possibilities].",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,The effect of o-salicylate upon pentose phosphate pathway activity in normal and G6PD-deficient red cells.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Purification and properties of Escherichia coli dihydrofolate reductase.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Bile acids. XLVII. 12alpha-Hydroxylation of precursors of allo bile acids by rabbit liver microsomes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Myosin from arterial smooth muscle: isolation following actin depolymerization.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Polymer concentration dependence of the helix to random coil transition of a charged polypeptide in aqueous salt solution.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,"Inhibitory postsynaptic actions of taurine, GABA and other amino acids on motoneurons of the isolated frog spinal cord.",4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Effects of zinc-smelter emissions on forest soil microflora.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Effects of decreasing arterial blood pressure on cerebral blood flow in the baboon. Influence of the sympathetic nervous system.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Serum lactate dehydrogenase activity ratios with different substrates.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Arterial catecholamines in hypoxic exercise in man.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,An evaluation of factors affecting the in vitro bioassay for erythropoietin.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,[Synthesis of N-substituted isoindolines].,3.0,4.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,5,104,Gluconic acid production by Penicillium puberulum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Phenomenon of hot-cold hemolysis: chelator-induced lysis of sphingomyelinase-treated erythrocytes.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Degradation of myxovirus virion RNA by periodate.,3.0,4.0,,3.5
+meta-llama/Llama-3.2-3B-Instruct,5,104,Phospholipase D activity of gram-negative bacteria.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Expression of the hut operons of Salmonella typhimurium in Klebsiella aerogenes and in Escherichia coli.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,Transport of molybdate by Clostridium pasteurianum.,4.0,4.0,,4.0
+meta-llama/Llama-3.2-3B-Instruct,5,104,D-Lactate dehydrogenase of Peptostreptococcus elsdenii.,4.0,4.0,,4.0
