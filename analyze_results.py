@@ -8,6 +8,8 @@ all_results = pd.read_csv("results/all_models_15seed_20abstracts_3prompts.csv")
 # Final score stats -- overall
 overview = all_results.groupby(["model"])["final_score"].agg(["min", "max", "mean", "std", "median"]).reset_index()
 
+overview.to_csv("results/overview_stats.csv", index=False)
+
 #
 plt.figure(figsize=(7, 4))
 plt.errorbar(
@@ -108,4 +110,50 @@ plt.xticks([])
 
 plt.tight_layout()
 plt.savefig("results/absolute_divergence_ranked.png", dpi=300, bbox_inches="tight")
+plt.show()
+
+
+# Analyze each score
+metrics = ["clarity", "relevance", "rigor"]
+
+fig, axes = plt.subplots(1, 3, figsize=(18, 5), sharey=True)
+
+for ax, metric in zip(axes, metrics):
+
+    metric_stats = (
+        all_results
+        .groupby(["model", "title"])[metric]
+        .agg(["mean", "std"])
+        .reset_index()
+    )
+
+    for model in metric_stats["model"].unique():
+        subset = metric_stats[metric_stats["model"] == model]
+
+        ax.errorbar(
+            subset["title"],
+            subset["mean"],
+            yerr=subset["std"],
+            fmt="o-",
+            capsize=3,
+            linewidth=2,
+            markersize=5,
+            color=model_cols[model],
+            label=model
+        )
+
+    ax.set_title(metric.capitalize(), fontsize=16)
+    ax.set_xticks([])
+    ax.tick_params(axis="y", labelsize=12)
+
+axes[0].set_ylabel("Score", fontsize=14)
+
+axes[0].legend(fontsize=11)
+
+plt.tight_layout()
+plt.savefig(
+    "results/variability_by_metric.png",
+    dpi=300,
+    bbox_inches="tight"
+)
 plt.show()
