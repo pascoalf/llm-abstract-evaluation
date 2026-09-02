@@ -23,7 +23,7 @@ plt.errorbar(
 plt.ylabel("Final score", fontsize = 12)
 plt.xticks(rotation=30, fontsize = 12)
 plt.tight_layout()
-#plt.savefig("results/model_scores_overall.png", dpi=300, bbox_inches="tight")
+plt.savefig("results/model_scores_overall.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -58,4 +58,28 @@ plt.xticks([])
 plt.yticks(fontsize = 17)
 plt.ylabel("Final score", fontsize = 17)
 plt.tight_layout()
+plt.savefig("results/variability_of_title_final_scores.png", dpi=300, bbox_inches="tight")
 plt.show()
+
+
+# Inspect divergence between models
+title_stats.groupby(["title"])
+
+models = ["Qwen/Qwen2.5-3B-Instruct", "meta-llama/Llama-3.2-3B-Instruct","microsoft/Phi-3-mini-4k-instruct"]
+
+diverge_scores = []
+#
+for title in title_stats["title"].unique():
+    ct = title_stats[title_stats["title"] == title]
+    #
+    qwen = ct[ct["model"] == models[0]]["mean"].iloc[0]
+    lama = ct[ct["model"] == models[1]]["mean"].iloc[0]
+    phi = ct[ct["model"] == models[2]]["mean"].iloc[0]
+    #
+    qwen_vs_lama = abs(qwen - lama)
+    lama_vs_phi = abs(lama - phi)
+    phi_vs_qwen = abs(phi - qwen)
+
+    diverge_scores.append(max([qwen_vs_lama, lama_vs_phi, phi_vs_qwen]))
+
+print(diverge_scores)
