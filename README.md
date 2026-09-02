@@ -102,3 +102,7 @@ The emphasis is instead on building a reproducible workflow for model evaluation
 
 Alammar, J., & Grootendorst, M. (2024). Hands-On Large Language Models: Language Understanding and Generation. O’Reilly Media.
 
+## Generative AI use declaration
+I used generative AI (chatGPT) to review and improve the text in this README file,
+
+
