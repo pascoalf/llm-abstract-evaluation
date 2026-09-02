@@ -92,6 +92,28 @@ The analysis currently focuses on:
 
 *Results and visualizations will be added as the experiments are completed.*
 
+*Table 1. Centrality metrics for final score obtained for a sample of 20 abstracts, for each model.*
+
+| model                            |     min |     max |    mean |      std |   median |
+|:---------------------------------|--------:|--------:|--------:|---------:|---------:|
+| Qwen/Qwen2.5-3B-Instruct         | 2.33333 | 4.33333 | 3.60333 | 0.455435 |  3.66667 |
+| meta-llama/Llama-3.2-3B-Instruct | 3       | 4       | 3.94833 | 0.163052 |  4       |
+| microsoft/Phi-3-mini-4k-instruct | 3       | 5       | 4.12778 | 0.32028  |  4.16667 |
+
+
+<p align="center">
+  <img src="results/variability_of_title_final_scores.png" width="600">
+</p>
+
+*Figure 1. Mean ± standard deviation of final score per title and model.*
+
+<p align="center">
+  <img src="results/absolute_divergence_ranked.png" width="600">
+</p>
+
+*Figure 2. Divergence in mean final score across models for each abstract, ranked from highest to lowest disagreement.*
+
+
 ## Scope
 
 This repository is an exploratory Python/LLM project rather than a benchmark of scientific-review quality. The resulting scores should not be interpreted as validated measurements of scientific merit.
