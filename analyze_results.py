@@ -20,8 +20,8 @@ plt.errorbar(
     markersize = 7
 )
 
-plt.ylabel("Final score", fontsize = 12)
-plt.xticks(rotation=30, fontsize = 12)
+plt.ylabel("Final score", fontsize = 14)
+plt.xticks(rotation=30, fontsize = 14)
 plt.tight_layout()
 plt.savefig("results/model_scores_overall.png", dpi=300, bbox_inches="tight")
 plt.show()
@@ -53,10 +53,10 @@ for model in title_stats["model"].unique():
         label=model
     )
 
-plt.legend(fontsize = 20)
+plt.legend(fontsize = 16)
 plt.xticks([])
-plt.yticks(fontsize = 17)
-plt.ylabel("Final score", fontsize = 17)
+plt.yticks(fontsize = 14)
+plt.ylabel("Final score", fontsize = 14)
 plt.tight_layout()
 plt.savefig("results/variability_of_title_final_scores.png", dpi=300, bbox_inches="tight")
 plt.show()
@@ -79,7 +79,33 @@ for title in title_stats["title"].unique():
     qwen_vs_lama = abs(qwen - lama)
     lama_vs_phi = abs(lama - phi)
     phi_vs_qwen = abs(phi - qwen)
+    #
+    divergence = float(max([qwen_vs_lama, lama_vs_phi, phi_vs_qwen]))
+    #
+    diverge_scores.append((divergence, title))
+    #
+    diverge_scores = sorted(diverge_scores, reverse=True)
 
-    diverge_scores.append(max([qwen_vs_lama, lama_vs_phi, phi_vs_qwen]))
 
-print(diverge_scores)
+div_scores = [x[0] for x in diverge_scores]
+ranked_titles = [x[1] for x in diverge_scores]
+
+#
+plt.figure(figsize=(8, 4.5))
+
+plt.plot(
+    range(len(ranked_titles)),
+    div_scores,
+    marker="o",
+    linewidth=2,
+    markersize=5
+)
+
+plt.ylabel("Divergence score", fontsize=14)
+plt.xlabel("Abstract rank", fontsize=14)
+
+plt.xticks([])
+
+plt.tight_layout()
+plt.savefig("results/absolute_divergence_ranked.png", dpi=300, bbox_inches="tight")
+plt.show()
