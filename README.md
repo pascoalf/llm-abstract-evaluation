@@ -84,7 +84,7 @@ Models are evaluated using the same abstracts, prompts, scoring criteria, and ge
 These are some preliminary results, focusing on within- and inter-model variability, as well as divergence between models.
 
 In Table 1, I show some general statistics on the overall results (range of final score given by different models and centrality metrics). This analysis shows that the range of final scores
-was different between models, even though most final scores were close to 4 out of 5. This indicates that all models tend to be generous in their evaluation, even though they differ quite a lot in the details. Indeed, some were more generous (Phi-3), while some were more strict (Qwen). The most consistent model was Llama, while the least was Qwen.
+was different between models, even though most final scores were close to 4 out of 5. This indicates that all models tend to be generous in their evaluation, even though they differ quite a lot in the details. Indeed, some were more generous (Phi-3), while some were more strict (Qwen). Llama had the narrowest overall score distribution, while Qwen varied the most.
 
 *Table 1. Centrality metrics for final score obtained for a sample of 20 abstracts, for each model.*
 
@@ -103,8 +103,8 @@ The variability and range of final scores can be misleading, because they collap
 *Figure 1. Mean ± standard deviation of final score per title and model.*
 
 Key takes from Figure 1:
-- Lama gave the same final score to most abstracts, indicating potential flaws in its reasoning and explaining why it was the most consistent. This also highlights that model consistency, in itself, is an insufficient indicator of model reliability;
-- Phi-3, on the other hand, provided different scores depending on abstract. The variance between different abstracts evaluation by Phi-3 did not overlap, meaning that each abstract obtained a specific evaluation, instead of repeating the same score for different abstracts (as it seems to be the case for Lama);
+- Llama gave the same final score to most abstracts, indicating potential flaws in its reasoning and explaining why it was the most consistent. This also highlights that model consistency, in itself, is an insufficient indicator of model reliability;
+- Phi-3, on the other hand, provided different scores depending on abstract. The variance between different abstracts evaluation by Phi-3 did not overlap, meaning that each abstract obtained a specific evaluation, instead of repeating the same score for different abstracts (as it seems to be the case for Llama);
 - Qwen presented the most variance between different abstracts, but the variability within abstracts was not higher that those of Phi-3. This indicates that Qwen provided the evaluations that were most specific to each abstract, even though the prompt provided very few details.
 
 Relative differences in final scores across abstracts was consistent across models (visible along the x-axis), whereby the same abstracts tended to have lower or higher scores, but different magnitudes. However, it is notable that the models provided very similar final scores for some abstracts, while other obtained very different results. Thus, we next inspected the absolute divergence between model's final score for each abstract, and ranked them from most divergent to least divergent (Figure 2), in absolute terms.
@@ -119,17 +119,21 @@ Figure 2 simply indicates the rate of decreasing divergence, but the most intere
 
 - **Most divergent abstract**
 
-**Ttile**: Synthesis of N-substituted isoindolines.
+**Title**: Synthesis of N-substituted isoindolines.
+
 **Abstract**: Some derivatives of isoindoline were prepared in order to test their cardiovascular activity. Pharmacological tests showed that some of the compounds had moderate alpha-blocking and coronarodilatory activity whereas others had some local anesthetic activity.
+
 **Reference**: Chimenti, F., & Vomero, S. (1975). [Synthesis of N-substituted isoindolines]. Il Farmaco; Edizione Scientifica, 30(11), 884–890. PMID: 251.
 
 - **Least divergent abstract**
 
 ***Title**: Phospholipase D activity of gram-negative bacteria.
+
 **Abstract**: A phospholipase hydrolyzing cardiolipin to phosphatidic acid and phosphatidyl glycerol was characterized in gram-negative bacteria but was absent in preparations of gram-positive bacteria, *Saccharomyces cerevisiae*, and rat liver mitochondria. In cell-free extracts of *Escherichia coli*, *Salmonella typhimurium*, *Proteus vulgaris*, and *Pseudomonase aeruginosa*, this cardiolipin-hydrolyzing enzyme had similar pH and Mg2+ requirements and displayed a specificity which excluded phosphatidyl glycerol and phosphatidyl ethanolamine as substrates.
+
 **Reference**: Cole, R. M., & Proulx, P. (1975). Phospholipase D activity of gram-negative bacteria. Journal of Bacteriology, 124(3), 1148–1152. https://doi.org/10.1128/jb.124.3.1148-1152.1975. PMID: 360.
 
-Both abstracts were from 1975! However, they presented quite different results of score divergence between models. *The abstract with most divergence* between models was composed of only two sentences. It is a very simple abstract, which provides very few methodological details or any claims of relevance. Thus, there was very little information for the models to base their evaluation on, which is the most likely explanation for the abstract scoring. The abstract itself is not terrible, because it very elegantly and simply explained the scientific experiment, *i.e.* they prepared derivatives of isoindoline to test their cardiovascular activity. As for the **abstract with least divergence** it was bigger and it included more methodological information. Thus, it had more information to gauge the different criteria. Overall, it seems that models made very different predictions of scoring based, mostly, on a **lack of information**: they both missed details on evaluation criteria (prompt-level) and they tended to become unstable if the abstract also provided little information. In other words, in the absence of sufficient information (context and prompt wise), the models hallucinate evaluation scores.
+Both abstracts were from 1975! However, they presented quite different results of score divergence between models. *The abstract with most divergence* between models was composed of only two sentences. It is a very simple abstract, which provides very few methodological details or any claims of relevance. Thus, there was very little information for the models to base their evaluation on, which is the most likely explanation for the abstract scoring. The abstract itself is not terrible, because it very elegantly and simply explained the scientific experiment, *i.e.* they prepared derivatives of isoindoline to test their cardiovascular activity. As for the **abstract with least divergence** it was bigger and it included more methodological information. Thus, it had more information to gauge the different criteria. Overall, it seems that models made very different predictions of scoring based, mostly, on a **lack of information**: they both missed details on evaluation criteria (prompt-level) and they tended to become unstable if the abstract also provided little information. In other words, in the absence of sufficient information (context and prompt wise), the models may hallucinate evaluation scores (in the sense that they get a lot of leeway to make up the score).
 
 Finally, I looked into the individual criteria scores in Figure 3.
 
@@ -139,17 +143,19 @@ Finally, I looked into the individual criteria scores in Figure 3.
 
 *Figure 3. Mean ± standard deviation of Clarity, Relevance, and Rigor scores per title and model.*
 
-Figure 3 is interesting, because it shows what metrics mattered the most to explain the final score given by the models. Notably, **Rigor** scoring failed for the Lama model, which is the most likely explanation for the lack of specificity in its scoring of different abstracts. **Relevance** seems to explain the overestimation of the final score by Phi-3, thus, Phi-3 tends to consider abstracts to be generally more relevant, while the other models seem to be more stringent. Again, this might be a direct consequence of the lack of detail in the prompts. And **Clarity** was the most consistent score between different models, which makes sense, as clarity has to do with the text construction, which is something an LLM can handle more easily than gauging the relevance and scientific rigor based only on an abstract. Indeed, we can evaluate an abstract for it's clarity based solely on the abstract, but measuring it's relevance and rigor from so little information, is always trickier. In a normal setting, to better evaluate the relevance and rigor of the abstract of a paper, we would also need to read the paper.
+Figure 3 is interesting, because it shows what metrics mattered the most to explain the final score given by the models. Notably, **Rigor** scoring failed for the Llama model, which is the most likely explanation for the lack of specificity in its scoring of different abstracts. This failure, however, is not necessarily a bad thing, because it means that while the other models provided rigor scores with insufficient details to do so, the Llama model gave no score. This also indicates it might be less prone to hallucinate (if one model considers that there is insufficient information to gauge an abstract's rigor, is the evaluation of the other models just an hallucination?). Of course, this is all hypothetical, I would need extra analyses to clarify all of this, and inspect the actual full responses instead of just the score.
+
+**Relevance** seems to explain the overestimation of the final score by Phi-3, thus, Phi-3 tends to consider abstracts to be generally more relevant, while the other models seem to be more stringent. Again, this might be a direct consequence of the lack of detail in the prompts. And **Clarity** was the most consistent score between different models, which makes sense, as clarity has to do with the text construction, which is something an LLM can handle more easily than gauging the relevance and scientific rigor based only on an abstract. Indeed, we can evaluate an abstract for it's clarity based solely on the abstract, but measuring it's relevance and rigor from so little information, is always trickier. In a normal setting, to better evaluate the relevance and rigor of the abstract of a paper, we would also need to read the paper.
 
 ## Scope
 
-This repository is an exploratory Python/LLM project. I'm using to train LLM workflows, test code, explore model evaluation.
+This repository is an exploratory Python/LLM project. I'm using it to train LLM workflows, test code, explore model evaluation.
 
 ## Learning resources
 
 Alammar, J., & Grootendorst, M. (2024). Hands-On Large Language Models: Language Understanding and Generation. O’Reilly Media.
 
 ## Generative AI use declaration
-I used generative AI (chatGPT) to review and improve the text in this README file.
+I used generative AI (ChatGPT) to review and improve the text in this README file.
 
 
